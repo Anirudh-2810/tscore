@@ -1,0 +1,8 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Real shop data must NEVER enter this repo (standing gate 2)
+data/real/
+*.real.csv
