@@ -269,6 +269,8 @@ def report(
             tag = "gate"
         elif wp is None or gate_w is None:
             tag = "?"
+        elif abs(wp - gate_w) < 1e-12:
+            tag = "tie"
         else:
             tag = "PASS" if wp < gate_w else "FAIL"
         out.append(f"{name:<24}{mae:>8.2f}{rmse:>8.2f}"
@@ -283,6 +285,12 @@ def report(
         out.append(
             f"GATE VERDICT: PASS - {winner} WAPE {100 * best_w:.2f}%"
             f" < naive gate {100 * gate_w:.2f}%")
+    elif winner and best_w is not None and gate_w is not None \
+            and abs(best_w - gate_w) < 1e-12:
+        out.append(f"GATE VERDICT: TIE - {winner} matches the naive gate "
+                   f"({100 * best_w:.2f}%) but does not BEAT it")
+        out.append("  -> standing rule 1: a tie is not a win - fix the data"
+                   " or approach BEFORE any model work.")
     else:
         out.append("GATE VERDICT: FAIL - no baseline beats"
                    " naive \"reorder what sold last week\""

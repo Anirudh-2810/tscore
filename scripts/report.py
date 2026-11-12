@@ -168,10 +168,22 @@ def build_report(
                    f"(need more than {min_hist} weeks of history) - "
                    "GATE: not evaluable")
     else:
+        gate_w = gate_wape or 0.0
+        if model_name == bt.GATE:
+            label = "gate baseline mode"
+        elif gate_pass:
+            label = "GATE PASSED"
+        else:
+            others = [bt.wape(s) for n, s in stats.items()
+                      if n != bt.GATE and s["n"] > 0]
+            tie = any(w is not None and abs(w - gate_w) < 1e-12
+                      for w in others)
+            label = ("GATE TIED - best baseline only matches naive"
+                     " (rule 1 needs a BEAT)" if tie
+                     else "GATE FAILED (see backtest)")
         out.append(f"Model: {model_name} - backtest WAPE "
                    f"{100 * pooled_wape:.1f}% vs naive gate "
-                   f"{100 * (gate_wape or 0):.1f}% - "
-                   + ("GATE PASSED" if gate_pass else "GATE FAILED (see backtest)"))
+                   f"{100 * gate_w:.1f}% - {label}")
     out.append("")
     budget_txt = (f" / budget Rs {guards.budget_cap:.0f}"
                   if guards.budget_cap is not None else "")
