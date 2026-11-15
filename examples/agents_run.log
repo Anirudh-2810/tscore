@@ -1,0 +1,395 @@
+Week 7 agent sim - 52 weeks, seed 7
+agents born: 189  lineages: 10
+w  0 SPAWN    A6 <- A0 gen1 k=8 safety=0.55 (parent pays 40.0)
+w  0 SPAWN    A7 <- A1 gen1 k=6 safety=0.31 (parent pays 40.0)
+w  0 SPAWN    A8 <- A2 gen1 k=4 safety=0.4 (parent pays 40.0)
+w  0 SPAWN    A9 <- A3 gen1 k=1 safety=0.31 (parent pays 40.0)
+w  0 SPAWN    A10 <- A4 gen1 k=1 safety=0.57 (parent pays 40.0)
+w  0 SPAWN    A11 <- A5 gen1 k=6 safety=0.0 (parent pays 40.0)
+w  1 DEAD     A0 gen0 L0 life=2w wallet=-19.45 lost=85.0 leftover=123.0
+w  1 DEAD     A2 gen0 L2 life=2w wallet=-5.45 lost=86.0 leftover=111.0
+w  1 DEAD     A4 gen0 L4 life=2w wallet=-15.4 lost=85.0 leftover=120.0
+w  1 SPAWN    A12 <- A10 gen2 k=1 safety=0.48 (parent pays 40.0)
+w  1 SPAWN    A13 <- A11 gen2 k=5 safety=0.0 (parent pays 40.0)
+w  1 SPAWN    A14 <- A6 gen2 k=7 safety=0.56 (parent pays 40.0)
+w  1 SPAWN    A15 <- A7 gen2 k=7 safety=0.32 (parent pays 40.0)
+w  1 SPAWN    A16 <- A8 gen2 k=3 safety=0.32 (parent pays 40.0)
+w  1 SPAWN    A17 <- A9 gen2 k=1 safety=0.28 (parent pays 40.0)
+w  2 DEAD     A1 gen0 L1 life=3w wallet=-3.15 lost=108.0 leftover=161.0
+w  2 SPAWN    A18 <- A11 gen2 k=4 safety=0.01 (parent pays 40.0)
+w  2 SPAWN    A19 <- A12 gen3 k=3 safety=0.54 (parent pays 40.0)
+w  2 SPAWN    A20 <- A13 gen3 k=7 safety=0.02 (parent pays 40.0)
+w  2 SPAWN    A21 <- A14 gen3 k=9 safety=0.53 (parent pays 40.0)
+w  2 SPAWN    A22 <- A15 gen3 k=6 safety=0.38 (parent pays 40.0)
+w  2 SPAWN    A23 <- A16 gen3 k=2 safety=0.24 (parent pays 40.0)
+w  2 SPAWN    A24 <- A17 gen3 k=2 safety=0.29 (parent pays 40.0)
+w  2 SPAWN    A25 <- A6 gen2 k=9 safety=0.6 (parent pays 40.0)
+w  2 SPAWN    A26 <- A7 gen2 k=7 safety=0.33 (parent pays 40.0)
+w  2 SPAWN    A27 <- A8 gen2 k=2 safety=0.32 (parent pays 40.0)
+w  3 DEAD     A5 gen0 L5 life=4w wallet=-11.1 lost=148.0 leftover=102.0
+w  3 DEAD     A6 gen1 L0 life=3w wallet=-39.25 lost=25.0 leftover=323.0
+w  3 DEAD     A10 gen1 L4 life=3w wallet=-16.9 lost=25.0 leftover=342.0
+w  3 SPAWN    A28 <- A12 gen3 k=3 safety=0.41 (parent pays 40.0)
+w  3 SPAWN    A29 <- A13 gen3 k=6 safety=0.0 (parent pays 40.0)
+w  3 SPAWN    A30 <- A15 gen3 k=9 safety=0.3 (parent pays 40.0)
+w  4 DEAD     A11 gen1 L5 life=4w wallet=-33.15 lost=126.0 leftover=105.0
+w  4 SPAWN    A31 <- A12 gen3 k=1 safety=0.53 (parent pays 40.0)
+w  5 DEAD     A3 gen0 L3 life=6w wallet=-26.6 lost=145.0 leftover=264.0
+w  5 DEAD     A8 gen1 L2 life=5w wallet=-17.05 lost=48.0 leftover=391.0
+w  5 DEAD     A9 gen1 L3 life=5w wallet=-5.85 lost=59.0 leftover=367.0
+w  5 DEAD     A12 gen2 L4 life=4w wallet=-92.9 lost=27.0 leftover=402.0
+w  5 DEAD     A31 gen3 L4 life=1w wallet=-14.35 lost=0.0 leftover=197.0
+w  5 SPAWN    A32 <- A15 gen3 k=8 safety=0.29 (parent pays 40.0)
+w  5 SPAWN    A33 <- A16 gen3 k=4 safety=0.34 (parent pays 40.0)
+w  5 SPAWN    A34 <- A18 gen3 k=6 safety=0.0 (parent pays 40.0)
+w  5 SPAWN    A35 <- A19 gen4 k=1 safety=0.6 (parent pays 40.0)
+w  5 SPAWN    A36 <- A20 gen4 k=9 safety=0.06 (parent pays 40.0)
+w  6 DEAD     A7 gen1 L1 life=6w wallet=-9.45 lost=57.0 leftover=415.0
+w  6 DEAD     A13 gen2 L5 life=5w wallet=-11.65 lost=104.0 leftover=151.0
+w  6 DEAD     A14 gen2 L0 life=5w wallet=-8.7 lost=20.0 leftover=542.0
+w  6 DEAD     A15 gen2 L1 life=5w wallet=-7.05 lost=31.0 leftover=351.0
+w  6 DEAD     A19 gen3 L4 life=4w wallet=-6.6 lost=4.0 leftover=496.0
+w  6 SPAWN    A37 <- A17 gen3 k=1 safety=0.19 (parent pays 40.0)
+w  6 SPAWN    A38 <- A18 gen3 k=5 safety=0.04 (parent pays 40.0)
+w  6 SPAWN    A39 <- A20 gen4 k=9 safety=0.0 (parent pays 40.0)
+w  6 SPAWN    A40 <- A21 gen4 k=11 safety=0.6 (parent pays 40.0)
+w  6 SPAWN    A41 <- A22 gen4 k=7 safety=0.28 (parent pays 40.0)
+w  7 DEAD     A16 gen2 L2 life=6w wallet=-2.1 lost=30.0 leftover=474.0
+w  7 DEAD     A17 gen2 L3 life=6w wallet=-7.6 lost=47.0 leftover=440.0
+w  7 DEAD     A21 gen3 L0 life=5w wallet=-30.3 lost=5.0 leftover=614.0
+w  7 DEAD     A25 gen2 L0 life=5w wallet=-21.05 lost=4.0 leftover=671.0
+w  7 SPAWN    A42 <- A23 gen4 k=4 safety=0.21 (parent pays 40.0)
+w  7 SPAWN    A43 <- A24 gen4 k=1 safety=0.29 (parent pays 40.0)
+w  7 SPAWN    A44 <- A26 gen3 k=6 safety=0.38 (parent pays 40.0)
+w  7 SPAWN    A45 <- A27 gen3 k=1 safety=0.37 (parent pays 40.0)
+w  8 DEAD     A40 gen4 L0 life=2w wallet=-7.55 lost=0.0 leftover=341.0
+w  8 LINEAGE EXTINCT L0
+w  8 SPAWN    A46 <- A23 gen4 k=4 safety=0.22 (parent pays 40.0)
+w  9 DEAD     A20 gen3 L5 life=7w wallet=-5.5 lost=74.0 leftover=358.0
+w  9 DEAD     A22 gen3 L1 life=7w wallet=-19.55 lost=10.0 leftover=729.0
+w  9 DEAD     A26 gen2 L1 life=7w wallet=-11.6 lost=16.0 leftover=680.0
+w  9 DEAD     A35 gen4 L4 life=4w wallet=-53.05 lost=6.0 leftover=587.0
+w  9 SPAWN    A47 <- A24 gen4 k=4 safety=0.21 (parent pays 40.0)
+w  9 SPAWN    A48 <- A29 gen4 k=8 safety=0.0 (parent pays 40.0)
+w  9 SPAWN    A49 <- A33 gen4 k=5 safety=0.42 (parent pays 40.0)
+w  9 SPAWN    A50 <- A34 gen4 k=8 safety=0.07 (parent pays 40.0)
+w 12 DEAD     A18 gen2 L5 life=10w wallet=-38.0 lost=139.0 leftover=404.0
+w 12 SPAWN    A51 <- A27 gen3 k=3 safety=0.36 (parent pays 40.0)
+w 13 DEAD     A23 gen3 L2 life=11w wallet=-1.1 lost=62.0 leftover=730.0
+w 13 DEAD     A24 gen3 L3 life=11w wallet=-6.45 lost=49.0 leftover=807.0
+w 13 DEAD     A27 gen2 L2 life=11w wallet=-19.7 lost=46.0 leftover=858.0
+w 13 SPAWN    A52 <- A32 gen4 k=9 safety=0.33 (parent pays 40.0)
+w 13 SPAWN    A53 <- A34 gen4 k=8 safety=0.09 (parent pays 40.0)
+w 13 SPAWN    A54 <- A36 gen5 k=8 safety=0.0 (parent pays 40.0)
+w 14 DEAD     A33 gen3 L2 life=9w wallet=-1.95 lost=21.0 leftover=825.0
+w 14 SPAWN    A55 <- A34 gen4 k=5 safety=0.0 (parent pays 40.0)
+w 15 DEAD     A28 gen3 L4 life=12w wallet=-27.25 lost=27.0 leftover=1143.0
+w 15 LINEAGE EXTINCT L4
+w 15 DEAD     A32 gen3 L1 life=10w wallet=-21.1 lost=14.0 leftover=954.0
+w 15 DEAD     A34 gen3 L5 life=10w wallet=-15.8 lost=85.0 leftover=404.0
+w 15 SPAWN    A56 <- A36 gen5 k=8 safety=0.0 (parent pays 40.0)
+w 15 SPAWN    A57 <- A38 gen4 k=4 safety=0.0 (parent pays 40.0)
+w 15 SPAWN    A58 <- A39 gen5 k=7 safety=0.0 (parent pays 40.0)
+w 16 DEAD     A29 gen3 L5 life=13w wallet=-32.25 lost=167.0 leftover=467.0
+w 16 SPAWN    A59 <- A39 gen5 k=10 safety=0.02 (parent pays 40.0)
+w 17 DEAD     A37 gen3 L3 life=11w wallet=-8.15 lost=111.0 leftover=597.0
+w 17 SPAWN    A60 <- A41 gen5 k=8 safety=0.37 (parent pays 40.0)
+w 18 DEAD     A38 gen3 L5 life=12w wallet=-7.65 lost=132.0 leftover=479.0
+w 18 DEAD     A39 gen4 L5 life=12w wallet=-20.2 lost=121.0 leftover=484.0
+w 18 SPAWN    A61 <- A42 gen5 k=2 safety=0.2 (parent pays 40.0)
+w 18 SPAWN    A62 <- A46 gen5 k=6 safety=0.2 (parent pays 40.0)
+w 19 DEAD     A43 gen4 L3 life=12w wallet=-20.5 lost=81.0 leftover=794.0
+w 19 DEAD     A45 gen3 L2 life=12w wallet=-27.8 lost=58.0 leftover=928.0
+w 19 SPAWN    A63 <- A42 gen5 k=6 safety=0.13 (parent pays 40.0)
+w 19 SPAWN    A64 <- A46 gen5 k=6 safety=0.13 (parent pays 40.0)
+w 21 DEAD     A36 gen4 L5 life=16w wallet=-48.75 lost=156.0 leftover=701.0
+w 21 DEAD     A42 gen4 L2 life=14w wallet=-5.85 lost=103.0 leftover=727.0
+w 21 DEAD     A48 gen4 L5 life=12w wallet=-46.65 lost=199.0 leftover=363.0
+w 21 DEAD     A54 gen5 L5 life=8w wallet=-23.6 lost=163.0 leftover=240.0
+w 21 DEAD     A55 gen4 L5 life=7w wallet=-27.3 lost=157.0 leftover=222.0
+w 21 DEAD     A57 gen4 L5 life=6w wallet=-1.85 lost=142.0 leftover=179.0
+w 21 DEAD     A58 gen5 L5 life=6w wallet=-6.75 lost=145.0 leftover=177.0
+w 21 SPAWN    A65 <- A30 gen4 k=7 safety=0.4 (parent pays 40.0)
+w 21 SPAWN    A66 <- A44 gen4 k=8 safety=0.31 (parent pays 40.0)
+w 21 SPAWN    A67 <- A47 gen5 k=5 safety=0.23 (parent pays 40.0)
+w 21 SPAWN    A68 <- A49 gen5 k=3 safety=0.32 (parent pays 40.0)
+w 21 SPAWN    A69 <- A51 gen4 k=2 safety=0.37 (parent pays 40.0)
+w 21 SPAWN    A70 <- A52 gen5 k=10 safety=0.35 (parent pays 40.0)
+w 21 SPAWN    A71 <- A53 gen5 k=6 safety=0.16 (parent pays 40.0)
+w 22 DEAD     A30 gen3 L1 life=19w wallet=-31.75 lost=70.0 leftover=1449.0
+w 22 DEAD     A41 gen4 L1 life=16w wallet=-21.65 lost=68.0 leftover=1143.0
+w 22 DEAD     A44 gen3 L1 life=15w wallet=-43.9 lost=46.0 leftover=1214.0
+w 22 DEAD     A46 gen4 L2 life=14w wallet=-32.15 lost=94.0 leftover=733.0
+w 22 DEAD     A49 gen4 L2 life=13w wallet=-24.65 lost=37.0 leftover=1047.0
+w 22 DEAD     A56 gen5 L5 life=7w wallet=-2.25 lost=146.0 leftover=195.0
+w 22 SPAWN    A72 <- A52 gen5 k=11 safety=0.26 (parent pays 40.0)
+w 22 SPAWN    A73 <- A59 gen6 k=11 safety=0.11 (parent pays 40.0)
+w 22 SPAWN    A74 <- A60 gen6 k=9 safety=0.36 (parent pays 40.0)
+w 22 SPAWN    A75 <- A61 gen6 k=1 safety=0.27 (parent pays 40.0)
+w 22 SPAWN    A76 <- A62 gen6 k=8 safety=0.2 (parent pays 40.0)
+w 22 SPAWN    A77 <- A63 gen6 k=7 safety=0.05 (parent pays 40.0)
+w 23 DEAD     A50 gen4 L5 life=14w wallet=-17.8 lost=195.0 leftover=488.0
+w 23 DEAD     A53 gen4 L5 life=10w wallet=-12.3 lost=152.0 leftover=342.0
+w 23 DEAD     A59 gen5 L5 life=7w wallet=-49.7 lost=165.0 leftover=178.0
+w 23 SPAWN    A78 <- A51 gen4 k=1 safety=0.41 (parent pays 40.0)
+w 23 SPAWN    A79 <- A52 gen5 k=10 safety=0.33 (parent pays 40.0)
+w 23 SPAWN    A80 <- A60 gen6 k=7 safety=0.37 (parent pays 40.0)
+w 24 DEAD     A47 gen4 L3 life=15w wallet=-14.9 lost=134.0 leftover=706.0
+w 24 DEAD     A51 gen3 L2 life=12w wallet=-20.55 lost=55.0 leftover=817.0
+w 24 DEAD     A52 gen4 L1 life=11w wallet=-18.55 lost=61.0 leftover=669.0
+w 24 SPAWN    A81 <- A61 gen6 k=1 safety=0.29 (parent pays 40.0)
+w 24 SPAWN    A82 <- A62 gen6 k=7 safety=0.13 (parent pays 40.0)
+w 24 SPAWN    A83 <- A64 gen6 k=4 safety=0.18 (parent pays 40.0)
+w 25 DEAD     A61 gen5 L2 life=7w wallet=-15.15 lost=114.0 leftover=309.0
+w 25 DEAD     A63 gen5 L2 life=6w wallet=-9.1 lost=148.0 leftover=178.0
+w 25 DEAD     A64 gen5 L2 life=6w wallet=-9.1 lost=148.0 leftover=178.0
+w 25 SPAWN    A84 <- A60 gen6 k=9 safety=0.47 (parent pays 40.0)
+w 25 SPAWN    A85 <- A65 gen5 k=5 safety=0.44 (parent pays 40.0)
+w 25 SPAWN    A86 <- A66 gen5 k=9 safety=0.31 (parent pays 40.0)
+w 26 DEAD     A60 gen5 L1 life=9w wallet=-37.35 lost=88.0 leftover=489.0
+w 26 DEAD     A62 gen5 L2 life=8w wallet=-33.0 lost=133.0 leftover=284.0
+w 26 SPAWN    A87 <- A65 gen5 k=6 safety=0.37 (parent pays 40.0)
+w 26 SPAWN    A88 <- A66 gen5 k=7 safety=0.32 (parent pays 40.0)
+w 28 DEAD     A73 gen6 L5 life=6w wallet=-58.65 lost=214.0 leftover=91.0
+w 28 DEAD     A77 gen6 L2 life=6w wallet=-57.15 lost=211.0 leftover=97.0
+w 28 SPAWN    A89 <- A65 gen5 k=8 safety=0.43 (parent pays 40.0)
+w 28 SPAWN    A90 <- A67 gen6 k=4 safety=0.29 (parent pays 40.0)
+w 30 DEAD     A65 gen4 L1 life=9w wallet=-55.8 lost=132.0 leftover=484.0
+w 30 DEAD     A66 gen4 L1 life=9w wallet=-44.95 lost=175.0 leftover=357.0
+w 30 DEAD     A67 gen5 L3 life=9w wallet=-31.45 lost=187.0 leftover=343.0
+w 30 DEAD     A69 gen4 L2 life=9w wallet=-9.35 lost=121.0 leftover=669.0
+w 30 DEAD     A71 gen5 L5 life=9w wallet=-58.45 lost=238.0 leftover=251.0
+w 30 LINEAGE EXTINCT L5
+w 30 DEAD     A72 gen5 L1 life=8w wallet=-31.45 lost=229.0 leftover=179.0
+w 30 DEAD     A75 gen6 L2 life=8w wallet=-51.95 lost=170.0 leftover=457.0
+w 30 DEAD     A76 gen6 L2 life=8w wallet=-28.0 lost=227.0 leftover=176.0
+w 30 DEAD     A78 gen4 L2 life=7w wallet=-45.8 lost=111.0 leftover=628.0
+w 30 DEAD     A82 gen6 L2 life=6w wallet=-40.0 lost=211.0 leftover=120.0
+w 30 SPAWN    A91 <- A74 gen7 k=11 safety=0.41 (parent pays 40.0)
+w 30 SPAWN    A92 <- A80 gen7 k=6 safety=0.31 (parent pays 40.0)
+w 30 SPAWN    A93 <- A83 gen7 k=6 safety=0.15 (parent pays 40.0)
+w 30 SPAWN    A94 <- A84 gen7 k=7 safety=0.57 (parent pays 40.0)
+w 30 SPAWN    A95 <- A85 gen6 k=6 safety=0.43 (parent pays 40.0)
+w 30 SPAWN    A96 <- A86 gen6 k=8 safety=0.35 (parent pays 40.0)
+w 30 SPAWN    A97 <- A87 gen6 k=7 safety=0.36 (parent pays 40.0)
+w 30 SPAWN    A98 <- A88 gen6 k=8 safety=0.41 (parent pays 40.0)
+w 30 SPAWN    A99 <- A89 gen6 k=9 safety=0.35 (parent pays 40.0)
+w 30 SPAWN    A100 <- A90 gen7 k=2 safety=0.24 (parent pays 40.0)
+w 31 DEAD     A68 gen5 L2 life=10w wallet=-24.75 lost=166.0 leftover=605.0
+w 31 DEAD     A70 gen5 L1 life=10w wallet=-5.35 lost=209.0 leftover=385.0
+w 31 DEAD     A74 gen6 L1 life=9w wallet=-23.9 lost=194.0 leftover=338.0
+w 31 DEAD     A79 gen5 L1 life=8w wallet=-5.05 lost=199.0 leftover=279.0
+w 31 DEAD     A80 gen6 L1 life=8w wallet=-13.3 lost=157.0 leftover=398.0
+w 31 DEAD     A81 gen6 L2 life=7w wallet=-22.65 lost=150.0 leftover=443.0
+w 31 DEAD     A83 gen6 L2 life=7w wallet=-47.15 lost=188.0 leftover=237.0
+w 31 DEAD     A85 gen5 L1 life=6w wallet=-12.0 lost=101.0 leftover=468.0
+w 31 SPAWN    A101 <- A100 gen8 k=1 safety=0.21 (parent pays 40.0)
+w 31 SPAWN    A102 <- A89 gen6 k=10 safety=0.45 (parent pays 40.0)
+w 31 SPAWN    A103 <- A90 gen7 k=2 safety=0.29 (parent pays 40.0)
+w 31 SPAWN    A104 <- A91 gen8 k=12 safety=0.47 (parent pays 40.0)
+w 31 SPAWN    A105 <- A92 gen8 k=4 safety=0.38 (parent pays 40.0)
+w 31 SPAWN    A106 <- A93 gen8 k=4 safety=0.23 (parent pays 40.0)
+w 31 SPAWN    A107 <- A94 gen8 k=6 safety=0.57 (parent pays 40.0)
+w 31 SPAWN    A108 <- A95 gen7 k=5 safety=0.42 (parent pays 40.0)
+w 32 DEAD     A84 gen6 L1 life=7w wallet=-99.35 lost=153.0 leftover=461.0
+w 32 DEAD     A86 gen5 L1 life=7w wallet=-87.35 lost=184.0 leftover=309.0
+w 32 DEAD     A87 gen5 L1 life=6w wallet=-83.75 lost=148.0 leftover=373.0
+w 32 DEAD     A88 gen5 L1 life=6w wallet=-76.0 lost=158.0 leftover=308.0
+w 32 DEAD     A89 gen5 L1 life=4w wallet=-69.75 lost=101.0 leftover=261.0
+w 32 DEAD     A90 gen6 L3 life=4w wallet=-89.55 lost=110.0 leftover=261.0
+w 32 DEAD     A94 gen7 L1 life=2w wallet=-11.35 lost=37.0 leftover=225.0
+w 32 SPAWN    A109 <- A100 gen8 k=3 safety=0.16 (parent pays 40.0)
+w 32 SPAWN    A110 <- A101 gen9 k=3 safety=0.2 (parent pays 40.0)
+w 32 SPAWN    A111 <- A102 gen7 k=8 safety=0.49 (parent pays 40.0)
+w 32 SPAWN    A112 <- A103 gen8 k=1 safety=0.39 (parent pays 40.0)
+w 32 SPAWN    A113 <- A104 gen9 k=10 safety=0.4 (parent pays 40.0)
+w 32 SPAWN    A114 <- A105 gen9 k=6 safety=0.44 (parent pays 40.0)
+w 32 SPAWN    A115 <- A106 gen9 k=3 safety=0.25 (parent pays 40.0)
+w 34 DEAD     A92 gen7 L1 life=4w wallet=-0.25 lost=137.0 leftover=211.0
+w 34 DEAD     A93 gen7 L2 life=4w wallet=-50.95 lost=177.0 leftover=133.0
+w 34 DEAD     A100 gen7 L3 life=4w wallet=-84.55 lost=160.0 leftover=213.0
+w 34 DEAD     A101 gen8 L3 life=3w wallet=-24.05 lost=134.0 leftover=143.0
+w 34 DEAD     A103 gen7 L3 life=3w wallet=-5.55 lost=122.0 leftover=177.0
+w 34 SPAWN    A116 <- A102 gen7 k=12 safety=0.48 (parent pays 40.0)
+w 34 SPAWN    A117 <- A108 gen8 k=6 safety=0.35 (parent pays 40.0)
+w 34 SPAWN    A118 <- A109 gen9 k=2 safety=0.06 (parent pays 40.0)
+w 34 SPAWN    A119 <- A110 gen10 k=1 safety=0.21 (parent pays 40.0)
+w 34 SPAWN    A120 <- A111 gen8 k=7 safety=0.48 (parent pays 40.0)
+w 35 DEAD     A91 gen7 L1 life=5w wallet=-82.75 lost=180.0 leftover=237.0
+w 35 DEAD     A95 gen6 L1 life=5w wallet=-102.9 lost=159.0 leftover=358.0
+w 35 DEAD     A96 gen6 L1 life=5w wallet=-55.3 lost=181.0 leftover=258.0
+w 35 DEAD     A97 gen6 L1 life=5w wallet=-59.7 lost=174.0 leftover=286.0
+w 35 DEAD     A98 gen6 L1 life=5w wallet=-46.45 lost=165.0 leftover=299.0
+w 35 DEAD     A99 gen6 L1 life=5w wallet=-46.65 lost=183.0 leftover=235.0
+w 35 DEAD     A102 gen6 L1 life=4w wallet=-92.95 lost=138.0 leftover=241.0
+w 35 DEAD     A104 gen8 L1 life=4w wallet=-54.15 lost=144.0 leftover=221.0
+w 35 DEAD     A105 gen8 L1 life=4w wallet=-81.15 lost=140.0 leftover=289.0
+w 35 DEAD     A106 gen8 L2 life=4w wallet=-80.7 lost=163.0 leftover=206.0
+w 35 DEAD     A107 gen8 L1 life=4w wallet=-82.8 lost=128.0 leftover=392.0
+w 35 DEAD     A108 gen7 L1 life=4w wallet=-85.35 lost=136.0 leftover=309.0
+w 35 DEAD     A109 gen8 L3 life=3w wallet=-4.75 lost=127.0 leftover=105.0
+w 35 DEAD     A110 gen9 L3 life=3w wallet=-6.85 lost=123.0 leftover=119.0
+w 35 DEAD     A112 gen8 L3 life=3w wallet=-41.05 lost=109.0 leftover=219.0
+w 35 SPAWN    A121 <- A113 gen10 k=9 safety=0.47 (parent pays 40.0)
+w 35 SPAWN    A122 <- A114 gen10 k=5 safety=0.35 (parent pays 40.0)
+w 35 SPAWN    A123 <- A116 gen8 k=11 safety=0.44 (parent pays 40.0)
+w 35 SPAWN    A124 <- A117 gen9 k=5 safety=0.4 (parent pays 40.0)
+w 35 SPAWN    A125 <- A118 gen10 k=3 safety=0.01 (parent pays 40.0)
+w 35 SPAWN    A126 <- A119 gen11 k=3 safety=0.28 (parent pays 40.0)
+w 35 SPAWN    A127 <- A120 gen9 k=5 safety=0.56 (parent pays 40.0)
+w 36 DEAD     A111 gen7 L1 life=4w wallet=-43.0 lost=119.0 leftover=292.0
+w 36 DEAD     A113 gen9 L1 life=4w wallet=-17.9 lost=134.0 leftover=206.0
+w 36 DEAD     A114 gen9 L1 life=4w wallet=-28.65 lost=118.0 leftover=283.0
+w 36 DEAD     A115 gen9 L2 life=4w wallet=-9.9 lost=146.0 leftover=202.0
+w 36 LINEAGE EXTINCT L2
+w 36 SPAWN    A128 <- A116 gen8 k=12 safety=0.56 (parent pays 40.0)
+w 36 SPAWN    A129 <- A117 gen9 k=8 safety=0.42 (parent pays 40.0)
+w 36 SPAWN    A130 <- A118 gen10 k=1 safety=0.07 (parent pays 40.0)
+w 36 SPAWN    A131 <- A119 gen11 k=1 safety=0.28 (parent pays 40.0)
+w 36 SPAWN    A132 <- A120 gen9 k=6 safety=0.5 (parent pays 40.0)
+w 36 SPAWN    A133 <- A121 gen11 k=8 safety=0.4 (parent pays 40.0)
+w 36 SPAWN    A134 <- A122 gen11 k=7 safety=0.37 (parent pays 40.0)
+w 36 SPAWN    A135 <- A123 gen9 k=9 safety=0.45 (parent pays 40.0)
+w 36 SPAWN    A136 <- A124 gen10 k=6 safety=0.44 (parent pays 40.0)
+w 36 SPAWN    A137 <- A125 gen11 k=5 safety=0.07 (parent pays 40.0)
+w 36 SPAWN    A138 <- A126 gen12 k=1 safety=0.36 (parent pays 40.0)
+w 36 SPAWN    A139 <- A127 gen10 k=3 safety=0.51 (parent pays 40.0)
+w 37 DEAD     A116 gen7 L1 life=3w wallet=-23.15 lost=79.0 leftover=225.0
+w 37 DEAD     A117 gen8 L1 life=3w wallet=-15.05 lost=79.0 leftover=219.0
+w 37 DEAD     A119 gen10 L3 life=3w wallet=-20.25 lost=90.0 leftover=219.0
+w 37 DEAD     A120 gen8 L1 life=3w wallet=-64.25 lost=79.0 leftover=291.0
+w 37 DEAD     A127 gen9 L1 life=2w wallet=-8.6 lost=42.0 leftover=244.0
+w 37 SPAWN    A140 <- A122 gen11 k=6 safety=0.26 (parent pays 40.0)
+w 37 SPAWN    A141 <- A123 gen9 k=9 safety=0.44 (parent pays 40.0)
+w 37 SPAWN    A142 <- A124 gen10 k=3 safety=0.45 (parent pays 40.0)
+w 37 SPAWN    A143 <- A125 gen11 k=1 safety=0.0 (parent pays 40.0)
+w 37 SPAWN    A144 <- A126 gen12 k=2 safety=0.32 (parent pays 40.0)
+w 38 DEAD     A118 gen9 L3 life=4w wallet=-253.55 lost=268.0 leftover=133.0
+w 38 DEAD     A121 gen10 L1 life=3w wallet=-34.2 lost=146.0 leftover=204.0
+w 38 DEAD     A122 gen10 L1 life=3w wallet=-79.65 lost=154.0 leftover=175.0
+w 38 DEAD     A123 gen8 L1 life=3w wallet=-69.15 lost=152.0 leftover=169.0
+w 38 DEAD     A124 gen9 L1 life=3w wallet=-78.0 lost=147.0 leftover=200.0
+w 38 DEAD     A125 gen10 L3 life=3w wallet=-220.7 lost=237.0 leftover=82.0
+w 38 DEAD     A126 gen11 L3 life=3w wallet=-117.35 lost=172.0 leftover=181.0
+w 38 DEAD     A130 gen10 L3 life=2w wallet=-100.35 lost=193.0 leftover=73.0
+w 38 DEAD     A131 gen11 L3 life=2w wallet=-12.0 lost=147.0 leftover=104.0
+w 38 DEAD     A137 gen11 L3 life=2w wallet=-59.8 lost=176.0 leftover=64.0
+w 38 DEAD     A143 gen11 L3 life=1w wallet=-69.55 lost=159.0 leftover=17.0
+w 38 SPAWN    A145 <- A128 gen9 k=11 safety=0.6 (parent pays 40.0)
+w 38 SPAWN    A146 <- A135 gen10 k=10 safety=0.53 (parent pays 40.0)
+w 38 SPAWN    A147 <- A140 gen12 k=5 safety=0.33 (parent pays 40.0)
+w 38 SPAWN    A148 <- A141 gen10 k=8 safety=0.42 (parent pays 40.0)
+w 38 SPAWN    A149 <- A142 gen11 k=5 safety=0.44 (parent pays 40.0)
+w 38 SPAWN    A150 <- A144 gen13 k=1 safety=0.35 (parent pays 40.0)
+w 39 DEAD     A128 gen8 L1 life=3w wallet=-168.3 lost=165.0 leftover=238.0
+w 39 DEAD     A129 gen9 L1 life=3w wallet=-128.35 lost=174.0 leftover=213.0
+w 39 DEAD     A132 gen9 L1 life=3w wallet=-156.1 lost=165.0 leftover=266.0
+w 39 DEAD     A133 gen11 L1 life=3w wallet=-127.3 lost=176.0 leftover=206.0
+w 39 DEAD     A134 gen11 L1 life=3w wallet=-135.55 lost=181.0 leftover=201.0
+w 39 DEAD     A135 gen9 L1 life=3w wallet=-162.65 lost=170.0 leftover=219.0
+w 39 DEAD     A136 gen10 L1 life=3w wallet=-148.05 lost=170.0 leftover=243.0
+w 39 DEAD     A138 gen12 L3 life=3w wallet=-215.4 lost=188.0 leftover=248.0
+w 39 DEAD     A139 gen10 L1 life=3w wallet=-197.35 lost=169.0 leftover=313.0
+w 39 DEAD     A140 gen11 L1 life=2w wallet=-129.35 lost=154.0 leftover=97.0
+w 39 DEAD     A141 gen9 L1 life=2w wallet=-93.15 lost=128.0 leftover=117.0
+w 39 DEAD     A142 gen10 L1 life=2w wallet=-146.25 lost=132.0 leftover=155.0
+w 39 DEAD     A144 gen12 L3 life=2w wallet=-142.45 lost=140.0 leftover=131.0
+w 39 DEAD     A150 gen13 L3 life=1w wallet=-69.75 lost=25.0 leftover=217.0
+w 39 LINEAGE EXTINCT L3
+w 39 SPAWN    A151 <- A146 gen11 k=12 safety=0.44 (parent pays 40.0)
+w 39 SPAWN    A152 <- A147 gen13 k=6 safety=0.39 (parent pays 40.0)
+w 39 SPAWN    A153 <- A148 gen11 k=7 safety=0.51 (parent pays 40.0)
+w 40 DEAD     A145 gen9 L1 life=2w wallet=-0.25 lost=57.0 leftover=259.0
+w 40 DEAD     A146 gen10 L1 life=2w wallet=-23.25 lost=57.0 leftover=239.0
+w 40 DEAD     A148 gen10 L1 life=2w wallet=-3.2 lost=57.0 leftover=216.0
+w 40 SPAWN    A154 <- A151 gen12 k=12 safety=0.37 (parent pays 40.0)
+w 40 SPAWN    A155 <- A152 gen14 k=5 safety=0.48 (parent pays 40.0)
+w 40 SPAWN    A156 <- A153 gen12 k=6 safety=0.56 (parent pays 40.0)
+w 41 DEAD     A147 gen12 L1 life=3w wallet=-100.3 lost=112.0 leftover=310.0
+w 41 DEAD     A149 gen11 L1 life=3w wallet=-101.3 lost=112.0 leftover=370.0
+w 41 DEAD     A151 gen11 L1 life=2w wallet=-7.5 lost=57.0 leftover=210.0
+w 41 DEAD     A152 gen13 L1 life=2w wallet=-23.2 lost=57.0 leftover=232.0
+w 41 DEAD     A153 gen11 L1 life=2w wallet=-59.85 lost=57.0 leftover=271.0
+w 41 SPAWN    A157 <- A154 gen13 k=10 safety=0.35 (parent pays 40.0)
+w 41 ARRIVE   A158 L158 k=8 safety=0.1
+w 41 ARRIVE   A159 L159 k=11 safety=0.5
+w 42 DEAD     A154 gen12 L1 life=2w wallet=-3.9 lost=92.0 leftover=162.0
+w 42 DEAD     A155 gen14 L1 life=2w wallet=-37.3 lost=92.0 leftover=246.0
+w 42 DEAD     A156 gen12 L1 life=2w wallet=-47.85 lost=92.0 leftover=259.0
+w 42 SPAWN    A160 <- A157 gen14 k=9 safety=0.39 (parent pays 40.0)
+w 42 SPAWN    A161 <- A158 gen1 k=10 safety=0.07 (parent pays 40.0)
+w 42 SPAWN    A162 <- A159 gen1 k=10 safety=0.47 (parent pays 40.0)
+w 43 DEAD     A157 gen13 L1 life=2w wallet=-60.45 lost=150.0 leftover=95.0
+w 43 DEAD     A158 gen0 L158 life=2w wallet=-26.3 lost=181.0 leftover=34.0
+w 43 DEAD     A159 gen0 L159 life=2w wallet=-17.4 lost=145.0 leftover=132.0
+w 43 SPAWN    A163 <- A160 gen15 k=7 safety=0.43 (parent pays 40.0)
+w 43 SPAWN    A164 <- A161 gen2 k=8 safety=0.04 (parent pays 40.0)
+w 43 SPAWN    A165 <- A162 gen2 k=12 safety=0.46 (parent pays 40.0)
+w 44 DEAD     A160 gen14 L1 life=2w wallet=-17.75 lost=126.0 leftover=89.0
+w 44 DEAD     A161 gen1 L158 life=2w wallet=-69.3 lost=178.0 leftover=18.0
+w 44 DEAD     A162 gen1 L159 life=2w wallet=-28.1 lost=121.0 leftover=110.0
+w 44 SPAWN    A166 <- A163 gen16 k=5 safety=0.41 (parent pays 40.0)
+w 44 SPAWN    A167 <- A164 gen3 k=9 safety=0.04 (parent pays 40.0)
+w 44 SPAWN    A168 <- A165 gen3 k=10 safety=0.38 (parent pays 40.0)
+w 45 DEAD     A164 gen2 L158 life=2w wallet=-30.55 lost=150.0 leftover=37.0
+w 45 SPAWN    A169 <- A166 gen17 k=4 safety=0.5 (parent pays 40.0)
+w 45 SPAWN    A170 <- A167 gen4 k=7 safety=0.0 (parent pays 40.0)
+w 45 SPAWN    A171 <- A168 gen4 k=11 safety=0.29 (parent pays 40.0)
+w 46 DEAD     A163 gen15 L1 life=3w wallet=-88.4 lost=147.0 leftover=220.0
+w 46 DEAD     A165 gen2 L159 life=3w wallet=-95.6 lost=153.0 leftover=200.0
+w 46 DEAD     A166 gen16 L1 life=2w wallet=-23.0 lost=91.0 leftover=156.0
+w 46 DEAD     A167 gen3 L158 life=2w wallet=-23.6 lost=136.0 leftover=52.0
+w 46 DEAD     A168 gen3 L159 life=2w wallet=-5.85 lost=94.0 leftover=131.0
+w 46 SPAWN    A172 <- A170 gen5 k=6 safety=0.0 (parent pays 40.0)
+w 46 SPAWN    A173 <- A171 gen5 k=10 safety=0.35 (parent pays 40.0)
+w 46 ARRIVE   A174 L174 k=11 safety=0.49
+w 47 DEAD     A169 gen17 L1 life=2w wallet=-30.15 lost=120.0 leftover=213.0
+w 47 LINEAGE EXTINCT L1
+w 47 DEAD     A170 gen4 L158 life=2w wallet=-104.25 lost=194.0 leftover=31.0
+w 47 DEAD     A171 gen4 L159 life=2w wallet=-21.65 lost=141.0 leftover=91.0
+w 47 SPAWN    A175 <- A172 gen6 k=7 safety=0.0 (parent pays 40.0)
+w 47 SPAWN    A176 <- A173 gen6 k=12 safety=0.39 (parent pays 40.0)
+w 47 SPAWN    A177 <- A174 gen1 k=9 safety=0.45 (parent pays 40.0)
+w 48 DEAD     A172 gen5 L158 life=2w wallet=-143.05 lost=181.0 leftover=63.0
+w 48 DEAD     A173 gen5 L159 life=2w wallet=-116.6 lost=136.0 leftover=136.0
+w 48 DEAD     A174 gen0 L174 life=2w wallet=-68.2 lost=128.0 leftover=168.0
+w 48 SPAWN    A178 <- A175 gen7 k=6 safety=0.0 (parent pays 40.0)
+w 48 SPAWN    A179 <- A176 gen7 k=10 safety=0.34 (parent pays 40.0)
+w 48 SPAWN    A180 <- A177 gen2 k=7 safety=0.48 (parent pays 40.0)
+w 49 DEAD     A176 gen6 L159 life=2w wallet=-7.3 lost=70.0 leftover=206.0
+w 49 DEAD     A177 gen1 L174 life=2w wallet=-29.7 lost=70.0 leftover=230.0
+w 49 SPAWN    A181 <- A178 gen8 k=7 safety=0.0 (parent pays 40.0)
+w 49 SPAWN    A182 <- A179 gen8 k=9 safety=0.25 (parent pays 40.0)
+w 50 DEAD     A175 gen6 L158 life=3w wallet=-63.65 lost=159.0 leftover=135.0
+w 50 DEAD     A179 gen7 L159 life=2w wallet=-12.05 lost=72.0 leftover=199.0
+w 50 DEAD     A180 gen2 L174 life=2w wallet=-32.6 lost=68.0 leftover=280.0
+w 50 LINEAGE EXTINCT L174
+w 50 SPAWN    A183 <- A181 gen9 k=5 safety=0.0 (parent pays 40.0)
+w 50 SPAWN    A184 <- A182 gen9 k=10 safety=0.35 (parent pays 40.0)
+w 50 ARRIVE   A185 L185 k=7 safety=0.56
+w 51 DEAD     A178 gen7 L158 life=3w wallet=-63.45 lost=162.0 leftover=135.0
+w 51 SPAWN    A186 <- A183 gen10 k=6 safety=0.02 (parent pays 40.0)
+w 51 SPAWN    A187 <- A184 gen10 k=8 safety=0.36 (parent pays 40.0)
+w 51 SPAWN    A188 <- A185 gen1 k=6 safety=0.6 (parent pays 40.0)
+
+by generation (end of run):
+ gen    n   mean wallet  mean lifespan
+   0   10        -11.27          2.7w
+   1   10        -20.88          3.3w
+   2   13        -29.16          5.5w
+   3   20        -17.57          9.2w
+   4   22        -29.80          9.8w
+   5   22        -42.32          6.9w
+   6   19        -52.98          5.8w
+   7   11        -42.04          3.5w
+   8   13        -46.97          3.3w
+   9   14        -54.52          2.9w
+  10   12        -74.44          2.3w
+  11   10        -81.95          2.3w
+  12    5       -101.98          2.4w
+  13    3        -51.13          1.7w
+  14    2        -27.52          2.0w
+  15    1        -88.40          3.0w
+  16    1        -23.00          2.0w
+  17    1        -30.15          2.0w
+lineage check: gen>=2 mean wallet -45.76 vs founders -11.27 -> descendants worse

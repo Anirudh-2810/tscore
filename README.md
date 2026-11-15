@@ -30,6 +30,15 @@ Part of the ShopBrain build: [`inventory-system`](https://github.com/Anirudh-281
       EMA + decorative viz). Walk-forward WAPE **39.92%** vs gate 34.77% vs
       MA(8) 28.10% (defaults); loses under all 8 seed×epoch configs tried
       (34.92–49.67%) → **DROP, revisit only with >=6 months of pilot data**
+- [x] **Week 7 — live-and-die agents + replay dashboard** ([`scripts/agents_sim.py`](scripts/agents_sim.py),
+      [`docs/w7-agents-notes.md`](docs/w7-agents-notes.md))
+      — population of MA(k)×safety reorder agents on one shop's demand stream,
+      wallet economy (revenue − orders − stockouts − holding − upkeep), death
+      at 0, parent-funded mutated spawns, immigrant refill. 52w/seed-7 run:
+      189 agents, 17 generations, deaths in every week-bucket, 8 survivors.
+      Lineage answer: lifespan peaks at gen 3–4 (2.7w → 9.8w) then declines;
+      descendant wallets worse (structural: children inherit 40, founders 100)
+      — shape verified on 3 seeds. Self-contained `agents_dashboard.html` replay
 - [x] Week 4 (StockOffline side): Forecast screen with approve/reject (app repo `b8f08b3`)
 - [ ] Week 5+: real pilot (blocked on shop permission — owner task)
 
@@ -39,7 +48,7 @@ Part of the ShopBrain build: [`inventory-system`](https://github.com/Anirudh-281
 # generate 13 weeks of fake pharmacy sales (seeded, reproducible)
 python scripts/generate_fake_sales.py --out examples/fake_sales.csv
 
-# run all tests (contract + backtest + reorder + report + rnn)
+# run all tests (contract + backtest + reorder + report + rnn + agents)
 python -m unittest discover -s tests -v
 
 # walk-forward backtest with the gate verdict (exit 0 = gate passed, 2 = failed)
@@ -47,6 +56,11 @@ python scripts/backtest.py --sales examples/fake_sales.csv
 
 # Week 6 neural test (exit 0 = KEEP, 2 = DROP; currently DROP — see docs/w6-rnn-verdict.md)
 python scripts/rnn_test.py --sales examples/fake_sales.csv
+
+# Week 7 live-and-die agents: 52-week run + replay dashboard (open the HTML, press Play)
+python scripts/generate_fake_sales.py --out examples/fake_sales_52w.csv --weeks 52 --seed 42 --start 2026-01-05
+python scripts/agents_sim.py --sales examples/fake_sales_52w.csv \
+  --html examples/agents_dashboard.html --log examples/agents_run.log
 
 # reorder math demo (guards: max order, N x last order, budget)
 python scripts/reorder.py --demo
