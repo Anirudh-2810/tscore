@@ -110,3 +110,7 @@ PARACETAMOL-500,42,50,0.73
 - ShopBrain plan: `wiki/01-Areas/Business/plans/shopbrain-agency-launch.md` in
   the [Second-Brain](https://github.com/Anirudh-2810/Second-Brain) vault
 - StockOffline: [inventory-system](https://github.com/Anirudh-2810/inventory-system)
+
+---
+
+Proprietary — © StockOffline. All rights reserved.
