@@ -39,8 +39,14 @@ Part of the ShopBrain build: [`inventory-system`](https://github.com/Anirudh-281
       Lineage answer: lifespan peaks at gen 3–4 (2.7w → 9.8w) then declines;
       descendant wallets worse (structural: children inherit 40, founders 100)
       — shape verified on 3 seeds. Self-contained `agents_dashboard.html` replay
+- [x] **Week 8 (agent part) — demo driver + case-study skeleton** ([`scripts/demo.py`](scripts/demo.py),
+      [case-study draft](https://github.com/Anirudh-2810/inventory-system/blob/main/marketing/case-study.md))
+      — `python scripts/demo.py` runs the whole pipeline end to end (fake data →
+      gate → report → agent replay) with fixed seeds so it is byte-stable any
+      day; case study is a `(TBC)` skeleton — no numbers before the pilot
 - [x] Week 4 (StockOffline side): Forecast screen with approve/reject (app repo `b8f08b3`)
 - [ ] Week 5+: real pilot (blocked on shop permission — owner task)
+- [ ] Week 8 (owner part): approach 10 shops, let their answers set the price
 
 ## Quick start
 
@@ -61,6 +67,11 @@ python scripts/rnn_test.py --sales examples/fake_sales.csv
 python scripts/generate_fake_sales.py --out examples/fake_sales_52w.csv --weeks 52 --seed 42 --start 2026-01-05
 python scripts/agents_sim.py --sales examples/fake_sales_52w.csv \
   --html examples/agents_dashboard.html --log examples/agents_run.log
+
+# Week 8 one-command demo: the whole pipeline end to end (fake data -> gate ->
+# report -> agent replay). Use --dry-run to list the steps, --with-rnn to add
+# the internal RNN test (expected exit 2 = DROP).
+python scripts/demo.py
 
 # reorder math demo (guards: max order, N x last order, budget)
 python scripts/reorder.py --demo
