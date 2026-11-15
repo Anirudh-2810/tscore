@@ -23,7 +23,14 @@ Part of the ShopBrain build: [`inventory-system`](https://github.com/Anirudh-281
       — owner-readable `report.txt` (order list, running-out, dead stock)
       + contract `forecast.csv`; confidence is measured backtest WAPE
       (0.5 placeholder only while history is too short to backtest — disclosed)
-- [ ] Week 4 (StockOffline side): Forecast screen with approve/reject
+- [x] **Week 6 — neural test: DROP** ([`scripts/rnn_test.py`](scripts/rnn_test.py),
+      [`docs/w6-rnn-verdict.md`](docs/w6-rnn-verdict.md))
+      — from-scratch Elman RNN (engine substitute: `neural-engine` source lives
+      only on the old machine; `Algorithm101` inspected — no trainable NN,
+      EMA + decorative viz). Walk-forward WAPE **39.92%** vs gate 34.77% vs
+      MA(8) 28.10% (defaults); loses under all 8 seed×epoch configs tried
+      (34.92–49.67%) → **DROP, revisit only with >=6 months of pilot data**
+- [x] Week 4 (StockOffline side): Forecast screen with approve/reject (app repo `b8f08b3`)
 - [ ] Week 5+: real pilot (blocked on shop permission — owner task)
 
 ## Quick start
@@ -32,11 +39,14 @@ Part of the ShopBrain build: [`inventory-system`](https://github.com/Anirudh-281
 # generate 13 weeks of fake pharmacy sales (seeded, reproducible)
 python scripts/generate_fake_sales.py --out examples/fake_sales.csv
 
-# run all tests (contract + backtest + reorder + report)
+# run all tests (contract + backtest + reorder + report + rnn)
 python -m unittest discover -s tests -v
 
 # walk-forward backtest with the gate verdict (exit 0 = gate passed, 2 = failed)
 python scripts/backtest.py --sales examples/fake_sales.csv
+
+# Week 6 neural test (exit 0 = KEEP, 2 = DROP; currently DROP — see docs/w6-rnn-verdict.md)
+python scripts/rnn_test.py --sales examples/fake_sales.csv
 
 # reorder math demo (guards: max order, N x last order, budget)
 python scripts/reorder.py --demo
